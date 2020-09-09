@@ -21,6 +21,8 @@ WIN_COMBINATIONS = [
       arr.each do |sub_arr|
         if (board[sub_arr[0]] == "X" && board[sub_arr[1]] == "X" && board[sub_arr[2]] == "X") ||  (board[sub_arr[0]] == "O" && board[sub_arr[1]] == "O" && board[sub_arr[2]] == "O")
           return sub_arr
+        else
+          return []
         end
       end  
     end
