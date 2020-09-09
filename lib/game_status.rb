@@ -24,6 +24,6 @@ WIN_COMBINATIONS = [
     end
     
     return [] if board.all? { |ele| ele == " " }
-    return [] if 
+    return [] if board.all? { |ele| ele != " " }
   end
   
