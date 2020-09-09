@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     WIN_COMBINATIONS.each do |arr|
-        if (board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X") ||  (board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O")
+        if (board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X") || (board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O")
           return arr
         else
           return []
