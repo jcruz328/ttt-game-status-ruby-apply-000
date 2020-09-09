@@ -42,7 +42,7 @@ WIN_COMBINATIONS = [
   def winner(board)
     WIN_COMBINATIONS.each do |arr|
       if (board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X") || (board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O")
-        return arr[0]
+        return board[arr[0]]
       end
     end
   end
