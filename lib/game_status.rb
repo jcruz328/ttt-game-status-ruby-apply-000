@@ -45,5 +45,7 @@ WIN_COMBINATIONS = [
         return board[arr[0]]
       end
     end
+    
+    return nil
   end
   
