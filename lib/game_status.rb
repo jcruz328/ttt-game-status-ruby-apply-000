@@ -16,6 +16,7 @@ WIN_COMBINATIONS = [
   [6,4,2],
   ]
   
+  wind= WIN_COMBINATIONS[0][1]
   def won?(board)
     WIN_COMBINATIONS.each do |arr|
       if (board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X") || (board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O")
