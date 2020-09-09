@@ -31,3 +31,7 @@ WIN_COMBINATIONS = [
     board.all? {|ele| ele != " "} ? true : false
   end
   
+  def draw?(board)
+    
+  end
+  
