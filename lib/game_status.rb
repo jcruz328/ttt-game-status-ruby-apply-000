@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
   def won?(board)
     WIN_COMBINATIONS.each do |arr|
       arr.each do |sub_arr|
-        if sub_arr
+        if board[sub_arr[0]] ==
       end  
     end
   end
