@@ -44,5 +44,6 @@ WIN_COMBINATIONS = [
       if (board[arr[0]] == "X" && board[arr[1]] == "X" && board[arr[2]] == "X") || (board[arr[0]] == "O" && board[arr[1]] == "O" && board[arr[2]] == "O")
         return arr[0]
       end
+    end
   end
   
