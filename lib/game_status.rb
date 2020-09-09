@@ -28,6 +28,6 @@ WIN_COMBINATIONS = [
   end
   
   def full?(board)
-    board.all? {|ele| ele != " "} ? false : true
+    board.all? {|ele| ele != " "} ? true : false
   end
   
